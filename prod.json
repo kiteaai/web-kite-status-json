@@ -1,0 +1,54 @@
+{
+    "startDay": "8/1",
+    "applications": [
+      {
+        "name": "Student Portal",
+        "status": 0,
+        "message": {
+          "date": "2022/03/31, 9:00 AM",
+          "contents": ""
+        },
+        "outages": [
+          {
+            "date": "2022/11/03",
+            "downtime": 20
+          }
+        ]
+      },
+      {
+        "name": "Educator Portal",
+        "status": 0,
+        "message": {
+          "date": "2022/03/31, 9:00 AM",
+          "contents": ""
+        },
+        "outages": [
+          {
+            "date": "2023/02/14",
+            "downtime": 50
+          }
+        ]
+      }
+    ],
+    "states": {
+      "0": {
+        "name": "No Issues",
+        "icon": ""
+      },
+      "1": {
+        "name": "Issue Resolved",
+        "icon": "",
+        "message": "Some districts have reported receiving an error accessing {application}. We verified that the app is stable and you can now resume activity. Thank you for your patience and understanding. "
+      },
+      "2": {
+        "name": "Possible Delays",
+        "icon": "",
+        "message": "We have received reports of delays related to {application} and are investigating the delay."
+      },
+      "3": {
+        "name": "Outage",
+        "icon": "",
+        "message": "{application} is unavailable. We are actively working to resolve the issue."
+      }
+    }
+  }
