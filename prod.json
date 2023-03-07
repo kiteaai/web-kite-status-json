@@ -17,10 +17,10 @@
       },
       {
         "name": "Educator Portal",
-        "status": 1,
+        "status": 0,
         "message": {
           "date": "2023/03/07, 2:10 PM",
-          "contents": "Some districts have reported receiving an error accessing {application}. We verified that the app is stable and you can now resume activity. Thank you for your patience and understanding."
+          "contents": ""
         },
         "outages": [
           {
