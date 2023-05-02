@@ -3,9 +3,9 @@
     "applications": [
       {
         "name": "Student Portal",
-        "status": 0,
+        "status": 2,
         "message": {
-          "date": "2022/03/31, 9:00 AM",
+          "date": "2023/05/02, 9:22 AM",
           "contents": ""
         },
         "outages": [
