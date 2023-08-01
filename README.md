@@ -56,6 +56,8 @@ Keep in mind that the **date** should always be updated to the desired day and t
 
 To report a new outage for an application, create a new outage object at the end of the **outages** array for the application (do **not** override an existing item). Below is an example of what an application with multiple outages would look like.
 
+Outages with a date that is earlier than the current school year start date, 8/1 by default, will not be inlcuded in the uptime percentage calculation. Old outages may be removed, though it is advised to leave at least 1 outage in the array as an example of the correct format.
+
 ```json
 {
   "name": "Student Portal",
