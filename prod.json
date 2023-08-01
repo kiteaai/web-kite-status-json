@@ -11,7 +11,7 @@
         "outages": [
           {
             "date": "2023/05/02",
-            "downtime": 0
+            "downtime": 20
           }
         ]
       },
@@ -25,7 +25,7 @@
         "outages": [
           {
             "date": "2023/02/14",
-            "downtime": 0
+            "downtime": 20
           }
         ]
       }
