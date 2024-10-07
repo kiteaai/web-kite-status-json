@@ -3,30 +3,38 @@
     "applications": [
       {
         "name": "Student Portal",
-        "status": 3,
+        "status": 2,
         "message": {
-          "date": "2024/10/07, 2:57 PM",
-          "contents": "AWS has experienced an outage and is working on remedying the situation."
+          "date": "2024/10/07, 3:15 PM",
+          "contents": "AWS experienced an outage between 2:27 and 2:52 PM CT today. The Kite team will continue to monitor the situation, but all Kite services are back up and functioning as expected."
         },
         "outages": [
           {
             "date": "2023/05/02",
             "downtime": 20
-          }
+          },
+          {
+            "date": "2024/10/07",
+            "downtime": 25
+          }            
         ]
       },
       {
         "name": "Educator Portal",
         "status": 2,
         "message": {
-          "date": "2024/10/07, 2:57 PM",
-          "contents": "AWS has experienced an outage and is working on remedying the situation."
+          "date": "2024/10/07, 3:15 PM",
+          "contents": "AWS experienced an outage between 2:27 and 2:52 PM CT today. The Kite team will continue to monitor the situation, but all Kite services are back up and functioning as expected."
         },
         "outages": [
           {
             "date": "2023/10/11",
             "downtime": 70
-          }
+          },
+          {
+            "date": "2024/10/07",
+            "downtime": 25
+          }                
         ]
       }
     ],
